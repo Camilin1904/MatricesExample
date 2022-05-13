@@ -280,10 +280,10 @@ public class Main {
 		if (student != null){
 			average = (calculator.getAverage(student[0], student[1]));
 			if (average<=3.5){
-				System.out.println("The student falied the semester");
+				System.out.println("\nThe student falied the semester");
 			}
 			else{
-				System.out.println("The student passed the semester");
+				System.out.println("\nThe student passed the semester");
 			}
 		}
 
