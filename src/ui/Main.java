@@ -279,6 +279,7 @@ public class Main {
 		student = calculator.FindStudentById(id);
 		if (student != null){
 			average = (calculator.getAverage(student[0], student[1]));
+			System.out.println("\nThe average for this student is: " + average + "\n");
 			if (average<=3.5){
 				System.out.println("\nThe student falied the semester");
 			}
